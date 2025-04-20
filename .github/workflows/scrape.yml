@@ -2,16 +2,18 @@ name: Run Scraper and Update JSON
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour (you can change this)
-  workflow_dispatch:     # Allows manual triggering from the GitHub UI
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:     # Allows manual trigger from GitHub UI
 
 jobs:
-  run-scraper:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Required to use our own token
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -19,8 +21,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Run scraper
         run: python scraper.py
