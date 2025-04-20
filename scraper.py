@@ -101,7 +101,7 @@ if response.status_code == 200:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
 
     # Speichern der verarbeiteten Daten
-    save_to_json(prozessed_data, 'processed_data.json')
+    save_to_json(prozessed_data, 'data.json')
 
 
     
