@@ -102,8 +102,3 @@ if response.status_code == 200:
 
     # Speichern der verarbeiteten Daten
     save_to_json(prozessed_data, 'data.json')
-
-
-    
-
-
