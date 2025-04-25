@@ -6,10 +6,10 @@ import re
 
 # URL der Webseite, die du scrapen möchtest
 
-url = "https://liveticker.eisstock.bayern/ligen/game.php?id=38&final"  # Ersetze dies mit der tatsächlichen URL
-#url = "https://liveticker.eisstock.bayern/ligen/game.php?id=363" #Heimspiel 1
-
-
+#url = "https://liveticker.eisstock.bayern/ligen/game.php?id=38&final"  # Ersetze dies mit der tatsächlichen URL
+url = "https://liveticker.eisstock.bayern/ligen/game.php?id=363" #Heimspiel 1
+#url = "https://liveticker.eisstock.bayern/ligen/game.php?id=359" #Heimspiel 2
+#url = "https://liveticker.eisstock.bayern/ligen/game.php?id=367" #Heimspiel 3
 
 # Sende die GET-Anfrage an die Webseite
 response = requests.get(url)
