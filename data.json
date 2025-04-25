@@ -1,26 +1,26 @@
 [
     {
-        "Team 1": "1",
-        "Team 2": "1"
+        "Team 1": "0",
+        "Team 2": "0"
     },
     {
         "Spiel": 1,
         "club_1": "EC Feldkirchen",
-        "Kehre_1_1": "1",
+        "Kehre_1_1": "0",
         "Kehre_2_1": "0",
         "Kehre_3_1": "0",
         "Kehre_4_1": "0",
         "Kehre_5_1": "0",
         "Kehre_6_1": "0",
-        "Spiel_1": "1",
+        "Spiel_1": "0",
         "club_2": "EC Gerabach",
-        "Kehre_1_2": "1",
+        "Kehre_1_2": "0",
         "Kehre_2_2": "0",
         "Kehre_3_2": "0",
         "Kehre_4_2": "0",
         "Kehre_5_2": "0",
         "Kehre_6_2": "0",
-        "Spiel_2": "1"
+        "Spiel_2": "0"
     },
     {
         "Spiel": 2,
