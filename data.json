@@ -1,6 +1,6 @@
 [
     {
-        "Team 1": "0",
+        "Team 1": "4",
         "Team 2": "2"
     },
     {
@@ -38,46 +38,46 @@
         "Kehre_3_2": "0",
         "Kehre_4_2": "1",
         "Kehre_5_2": "0",
-        "Kehre_6_2": "0",
-        "Spiel_2": "3"
+        "Kehre_6_2": "1",
+        "Spiel_2": "4"
     },
     {
         "Spiel": 3,
         "club_1": "EC Feldkirchen",
         "Kehre_1_1": "0",
         "Kehre_2_1": "0",
-        "Kehre_3_1": "0",
-        "Kehre_4_1": "0",
+        "Kehre_3_1": "1",
+        "Kehre_4_1": "2",
         "Kehre_5_1": "0",
-        "Kehre_6_1": "0",
-        "Spiel_1": "0",
+        "Kehre_6_1": "1",
+        "Spiel_1": "4",
         "club_2": "EC Gerabach",
-        "Kehre_1_2": "0",
-        "Kehre_2_2": "0",
+        "Kehre_1_2": "1",
+        "Kehre_2_2": "1",
         "Kehre_3_2": "0",
         "Kehre_4_2": "0",
-        "Kehre_5_2": "0",
+        "Kehre_5_2": "1",
         "Kehre_6_2": "0",
-        "Spiel_2": "0"
+        "Spiel_2": "3"
     },
     {
         "Spiel": 4,
         "club_1": "EC Feldkirchen",
         "Kehre_1_1": "0",
         "Kehre_2_1": "0",
-        "Kehre_3_1": "0",
+        "Kehre_3_1": "1",
         "Kehre_4_1": "0",
         "Kehre_5_1": "0",
         "Kehre_6_1": "0",
-        "Spiel_1": "0",
+        "Spiel_1": "1",
         "club_2": "EC Gerabach",
-        "Kehre_1_2": "0",
-        "Kehre_2_2": "0",
+        "Kehre_1_2": "1",
+        "Kehre_2_2": "2",
         "Kehre_3_2": "0",
         "Kehre_4_2": "0",
         "Kehre_5_2": "0",
         "Kehre_6_2": "0",
-        "Spiel_2": "0"
+        "Spiel_2": "3"
     },
     {
         "Spiel": 5,
